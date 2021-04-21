@@ -1,0 +1,56 @@
+* {
+  padding: 3px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.gold {
+  background-color: rgba(248, 196, 113,0.9);
+/*	box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;*/
+}
+.silver {
+/*  background-color: silver;*/
+}
+.bronze {
+	padding: 20px 0;
+  background-color: #b08d;
+	border-radius: 10px;
+}
+.top-area {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 3px 5px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.top-area:hover {
+  opacity: 0.6;
+/*  border: 5px ridge black;*/
+}
+.bottom-area {
+  float: left;
+  width: 100%;
+  margin: 10px 0px;
+/*  border: 10px double black;*/
+  font-size: 30px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.bottom-area:hover {
+  opacity: 0.8;
+/*  border: 5px ridge black;*/
+}
+
+img:hover {
+	opacity: 0.5;
+/*  border: 5px ridge white;*/
+}
+hr {
+/*  border: 2px ridge gray;*/
+}
+.top-area {
+  width: 400px;
+}
+.btn-lg {
+  width: 250px;
+}
